@@ -95,6 +95,7 @@ html {
 header {
     background-color: var(--white-background);
     border: 1px; 
+    border: 1px solid #ECECEC;
 }
 
 .header-logo { 
@@ -189,9 +190,11 @@ ul {
     height: 600px;
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     margin: 0%;
 }
+
+
 
 .to-order {
     display: inline-block; /* Строчно-блочный элемент */
@@ -213,6 +216,7 @@ ul {
 h1 {
     font-weight: 900;
     font-size: 44px;
+    text-transform: uppercase;
     line-height: 60px;
     color: #FFFFFF;
     text-align: center;
@@ -244,7 +248,7 @@ p {
     letter-spacing: 0.03em;
     color: var(--main-text-color);
     margin: 0px;
-    width: 270px;
+
 }
 
 .profession {
@@ -279,13 +283,15 @@ p {
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    margin-top: 90px;
+    padding-top: 90px;
     padding-bottom: 90px;
 
 }
 
 .our-team-title {
-    padding-top: 90px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .team-player {
@@ -377,12 +383,12 @@ p {
     padding-top: 45px;
     margin: 0px;
 }
-.projects :nth-child(3n) {
-    margin-right: 0px;
-}
 
-.projects :nth-last-child(-n+3) {
-    margin-bottom: 0px;
+.project-item {
+    width: 370px;
+    margin-right: 25px;
+    background-color: #EEEEEE;
+    margin-bottom: 30px;
 }
 
 .project-name {
@@ -391,37 +397,41 @@ p {
     line-height: 36px;
     color: var(--h2-color); 
     text-align: left;
-    margin: 0px;
+/*  margin: 0px;
     padding-top: 20px;
     padding-bottom: 10px;
     padding-left: 24px;
- 
-}
-
-.project-item {
-    width: 370px;
-    height: ;
-    margin-right: 25px;
-    margin-bottom: 30px;
-    background-color: #EEEEEE;
+    */
+    padding: 0px;
 }
 
 .project-tipe {
-    line-height: 30px;
+    margin-top: 10px;
+   /* line-height: 30px;
     padding-left: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;*/
 }
 
+.description {
+    padding: 24px 20px 24px 20px;
+}
+
+.projects :nth-child(3n) {
+    margin-right: 0px;
+}
+
+.projects :nth-last-child(-n+3) {
+    margin-bottom: 0px;
+}
 
 footer {
     background-color: #2F303A; 
     color: var(--white-background);
-    letter-spacing: 0.03em;
     border: 1px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+}
+
+.footer {
+    width: 1200px;
 }
 
 footer a {
@@ -431,19 +441,22 @@ footer a {
 .footer-logo { 
     height: 31px;
     width: 145px;
-    padding-top: 60px;
+    margin-top: 60px;
     padding-bottom: 20px;
     display: inline-block;
     text-align: center;
-    text-decoration: none; 
-    margin: 0px;
+
     margin-bottom: 20px;
 }
 
 footer .email-phone {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-    padding-top: 8px;
+    margin-top: 8px;
     padding-bottom: 8px;
 }
 
