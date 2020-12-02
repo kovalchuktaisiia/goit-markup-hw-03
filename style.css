@@ -321,12 +321,16 @@ p {
 
 .filter {
     background-color: var(--white-background);
-    display: inline-block;
+    display: block;
     margin: 0px;  
 }
 
 .filter .item {
     display: flex;
+}
+
+.filter .list {
+    justify-content: center;
 }
 
 .filter .item + .item {
