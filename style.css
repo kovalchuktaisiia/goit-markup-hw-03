@@ -98,6 +98,10 @@ header {
     border: 1px solid #ECECEC;
 }
 
+.header {
+    align-items: center;
+}
+
 .header-logo { 
     height: 31px;
     width: 145px;
@@ -120,8 +124,6 @@ header a {
     display: flex;
     text-align: center;
     padding: 0px;
-   
-    
     margin: 0px;
     align-items: center;
     }
@@ -224,7 +226,7 @@ h1 {
     color: #FFFFFF;
     text-align: center;
     margin: 0%;
-    
+    letter-spacing: 0.06em;
 }
 
 h2 {
