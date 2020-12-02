@@ -119,8 +119,9 @@ header a {
 .list {
     display: flex;
     text-align: center;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding: 0px;
+   
+    
     margin: 0px;
     align-items: center;
     }
@@ -314,7 +315,7 @@ p {
   }
 
 .list .team-player-item + .team-player-item {
-    margin-left: 28px;
+    margin-left: 35px;
 }
 
 .team-player-photo {
@@ -394,7 +395,9 @@ p {
     margin-bottom: 30px;
 }
 
-
+.project-item:last-child {
+    margin-right: 0px;
+}
 
 .project-name {
     font-weight: bold;
