@@ -166,9 +166,6 @@ header a {
     color: var(--accent-link-color);
 }
 
-.email-phone {
-    color: #757575;
-}
 
 .header a:hover, 
 .header a:focus {
@@ -395,7 +392,8 @@ p {
 .project-item {
     width: 370px;
     margin-right: 40px;
-    background-color: #EEEEEE;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
     margin-bottom: 30px;
 }
 
@@ -461,18 +459,23 @@ footer a {
     margin-bottom: 20px;
 }
 
-footer .email-phone {
+.email-phone {
+    color: #757575;
     font-size: 14px;
     font-style: normal;
     font-weight: normal;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    margin-top: 8px;
-    padding-bottom: 8px;
+    margin-top: 10px;
 }
+
+address p:last-child {
+ margin-top: 10px;
+}
+
 .city-adress {
     color: var(--white-background);
+    padding-bottom: 10px;
 }
 
 address {
